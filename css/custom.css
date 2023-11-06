@@ -1,0 +1,88 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+/* Form container style */
+#contactform {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input field styling */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Input field focus styling */
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Textarea field styling */
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Verification input field styling */
+#verify_contact {
+    width: 50px;
+    text-align: center;
+}
+
+/* Submit button styling */
+.add_top_30 input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add_top_30 input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Backdrop effect */
+#contactform::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: -1;
+}
+
+/* Style for the backdrop effect and more can be adjusted according to your preference */
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    flex-direction: row;
+}
+.sub_header_in.sticky_header {
+    text-align: center;
+}
