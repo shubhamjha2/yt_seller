@@ -964,7 +964,7 @@ header.header_in ul#top_menu li a {
 }
 
 .sub_header_in {
-  background-color: #dd0000e0;
+  background-color: #000000;
   padding: 20px 0;
 }
 
@@ -974,7 +974,7 @@ header.header_in ul#top_menu li a {
 
 @media (max-width: 991px) {
   .sub_header_in.sticky_header {
-    margin-top: 48px;
+    /* margin-top: 48px; */
   }
 }
 
@@ -6909,12 +6909,12 @@ iframe#map_iframe {
 
 /*-------- 2.12 Faq --------*/
 .box_style_cat {
-  background: #fff;
+  background: #fff0;
   border: 1px solid #ededed;
   margin-bottom: 25px;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 15px 0px rgb(255 251 251 / 5%);
 }
 
 @media (max-width: 991px) {
@@ -8657,9 +8657,8 @@ ul.share-buttons li i {
   -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
 }
-
 .accordion_2 .card .card-header {
-  background-color: #fff;
+  background-color: #000000;
   border-bottom: 1px solid #ededed;
   padding: 20px;
 }
@@ -9545,4 +9544,43 @@ footer.plus_border {
 }
 .bg_adder1 {
   background-color: rgb(0 0 0 / 90%);
+}
+.faqblackbg {
+  background-color: rgb(0 0 0 / 90%);
+}
+div#collapseOne_payment {
+  background: #1b1b1b;
+}
+div#collapseTwo_payment {
+  background: #1b1b1b;
+}
+div#collapseThree_payment {
+  background: #1b1b1b;
+}
+div#collapseOne_tips {
+  background: #1b1b1b;
+}
+div#collapseTwo_tips {
+  background: #1b1b1b;
+}
+div#collapseThree_tips {
+  background: #1b1b1b;
+}
+div#collapseOne_reccomendations {
+  background: #1b1b1b;
+}
+div#collapseTwo_reccomendations {
+  background: #1b1b1b;
+}
+div#collapseThree_reccomendations {
+  background: #1b1b1b;
+}
+div#collapseOne_terms {
+  background: #1b1b1b;
+}
+div#collapseTwo_terms {
+  background: #1b1b1b;
+}
+div#collapseThree_terms {
+  background: #1b1b1b;
 }
